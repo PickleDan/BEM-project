@@ -178,3 +178,29 @@ div[filter]:hover .text {
 	z-index: 3;
 	text-align: center;
 }
+
+/*Price*/
+.pricing{
+	padding-top: 165px;
+	padding-bottom: 125px;
+	color: black;
+	background: #f0f1f1;
+	text-align: center;
+}
+.price{
+	background: #fff;
+}
+.price__head{
+	background-image: url(../img/pricing-bg.png);
+	padding-top: 40px;
+	padding-bottom: 65px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 211px;
+}
+.price_body{
+
+}
+.price__footer{
+
+}
