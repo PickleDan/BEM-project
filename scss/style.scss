@@ -191,16 +191,57 @@ div[filter]:hover .text {
 	background: #fff;
 }
 .price__head{
+	color: #FFF;
 	background-image: url(../img/pricing-bg.png);
-	padding-top: 40px;
+	padding-top: 24px;
 	padding-bottom: 65px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 211px;
+	height: 210px;
 }
-.price_body{
-
+.price__head p{
+	font-size: 25px;
+}
+.price__head {
+	font-size: 50px;
+}
+.price__head sup{
+	font-size: 25px;
+	vertical-align: middle;
+}
+.price__head sub{
+	font-size: 17px;
+	vertical-align: middle;
+}
+.price__body{
+	font-size: 17px;
+	color: #212121;
+}
+.price__body ul li{
+	padding-top: 28px;
+	padding-bottom: 12px;
+	max-width: 175px;
+	border-bottom: 1px solid #bfbfbf;
+	margin: 0 auto;
 }
 .price__footer{
-
+	padding: 15px 0 30px 0 ;
+}
+.price__footer button{
+	cursor: pointer;
+	border: 2px solid #212121;
+	color: #212121;
+	background: transparent;
+	font-size: 20px;
+	padding: 15px 30px;
+}
+.price__footer button:hover{
+	color: #FFF;
+	background: #00897b;
+	border: none;
+	transition: 0.3s;
+}
+.price:hover{
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+	transition: 0.5s;
 }
